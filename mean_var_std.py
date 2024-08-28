@@ -1,7 +1,7 @@
 import numpy as np
 
 def calculate(list):
-matrix = np.array(list).reshape(3, 3)
+    matrix = np.array(list).reshape(3, 3)
 
     meanAxis1 = np.mean(matrix, axis=0).tolist()
     Var1 = np.var(matrix, axis=0).tolist()
