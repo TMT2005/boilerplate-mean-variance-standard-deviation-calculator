@@ -10,7 +10,7 @@ def calculate(list):
     min1 = np.min(matrix, axis=0).tolist()
     sum1 = np.sum(matrix, axis=0).tolist()
     
-    meanAxis2 = np.mean(matrix, axis=0).tolist()
+    meanAxis2 = np.mean(matrix, axis=1).tolist()
     Var2 = np.var(matrix, axis=1).tolist()
     std2 = np.std(matrix, axis=1).tolist()
     max2 = np.max(matrix, axis=1).tolist()
